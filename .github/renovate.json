@@ -1,11 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
+    "config:recommended"
   ],
   "groupName": "all dependencies",
   "separateMajorMinor": false,
   "groupSlug": "all",
   "rangeStrategy": "pin",
-  "schedule": ["on monday before 6am"]
+  "schedule": [
+    "on monday before 6am"
+  ]
 }
