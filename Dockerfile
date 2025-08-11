@@ -1,4 +1,4 @@
-#syntax=docker/dockerfile:1.14
+#syntax=docker/dockerfile:1.17
 FROM node as mjml
 RUN <<EOF
 npm install -g mjml@4.14.1
